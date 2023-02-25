@@ -1,38 +1,53 @@
 <template>
-  <form
-    name="ask-question"
-    method="post"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-    >
-    <input type="hidden" name="form-name" value="ask-question" />
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        :value="panelist"
-        @input="ev => updatePanelist"
-        :checked="panelist === currentPanelist"
-      />
-      <span>{{ panelist }}</span>
-    </label>
-    ...
-    <button>Submit</button>
-  </form>
+  <div class="contacts" style="color:aliceblue;">
+    <div class="container">
+      <p class="display-2">Contact Form</p>
+      <form name="contact" netlify>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input
+          for="name"
+          placeholder="Insert Your Name"
+            name="nama"
+            type="name"
+            class="form-control"
+            id="name"
+            aria-describedby="namehelp"
+          />
+          <label for="exampleInputEmail1" class="form-label mt-2"
+            >Email address</label
+          >
+          <input
+          for="email"
+          placeholder="Insert Your Email..."
+            name="email"
+            type="email"
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messages" class="form-label">Messages</label>
+          <textarea
+          for="messages"
+          placeholder="Enter Message..."
+            type="text"
+            class="form-control"
+            id="messages"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >i Agree this message will be read into</label
+          >
+        </div>
+        <input class="btn btn-outline-primary" type="submit" value="Kirim" />
+      </form>
+    </div>
+  </div>
 </template>
-<script>
-export default {
-  name: "QAForm",
-  methods: {
-    updatePanelist (ev) {
-      this.currentPanelist = ev.target.value
-    }
-  },
-  data () {
-    return {
-      panelists: ['Evan You', 'Chris Fritz'],
-      currentPanelist: 'Evan You'
-    }
-  }
-}
-</script>
