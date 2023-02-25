@@ -2,7 +2,7 @@
   <div class="contacts" style="color:aliceblue;">
     <div class="container">
       <p class="display-2">Contact Form</p>
-      <form name="contact" method="POST" data-netlify="true" netlify>
+      <form name="contact" method="POST"  netlify>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Nama</label>
           <input
@@ -43,7 +43,7 @@
             >i Agree this message will be read into</label
           >
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input class="btn btn-outline-primary" type="submit" value="Kirim" />
       </form>
     </div>
   </div>
