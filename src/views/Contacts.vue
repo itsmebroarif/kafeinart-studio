@@ -29,12 +29,12 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Messages</label>
+          <label for="messages" class="form-label">Messages</label>
           <textarea
           placeholder="Enter Message..."
             type="text"
             class="form-control"
-            id="exampleInputPassword1"
+            id="messages"
           />
         </div>
         <div class="mb-3 form-check">
