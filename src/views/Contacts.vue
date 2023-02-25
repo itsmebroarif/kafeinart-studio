@@ -3,7 +3,7 @@
     <div class="container">
       <p class="display-2">Contact Form</p>
 
-      <form method="POST" netlify>
+      <form name="contact" netlify>
             <label for="email">Email</label><br />
             <input type="email" name="email" placeholder="alamat email" />
             <br />
