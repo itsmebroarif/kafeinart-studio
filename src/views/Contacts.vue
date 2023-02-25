@@ -12,7 +12,7 @@
 
 
       <!-- Baris Sosial media 1 -->
-      <div class="row">
+      <div class="row mt-4 py-5">
         <div class="col">
           <a href="http://" class="btn btn-outline-primary">Social Media</a>
         </div>
