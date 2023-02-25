@@ -2,9 +2,9 @@
   <div class="contacts" style="color:aliceblue;">
     <div class="container">
       <p class="display-2">Contact Form</p>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" netlify>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <label for="exampleInputEmail1" class="form-label">Nama</label>
           <input
           placeholder="Insert Your Name"
             name="nama"
