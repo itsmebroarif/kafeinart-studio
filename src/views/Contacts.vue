@@ -1,7 +1,7 @@
 <template>
   <div class="contacts" style="color:aliceblue;">
     <div class="container">
-      <p class="display-2">Contact Me In Below</p>
+      <p class="display-2">Contact Me <br> In Below</p>
 
 
 
