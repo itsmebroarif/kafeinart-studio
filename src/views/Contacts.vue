@@ -1,23 +1,23 @@
 <template>
-  <div class="contacts" style="color:aliceblue;">
+  <div class="contacts" style="color: aliceblue">
     <div class="container">
       <p class="display-2">Contact Form</p>
-      <form name="contact" method="POST"  netlify>
+      <form name="contact" method="POST" netlify>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nama</label>
+          <label for="name" class="form-label">Name</label>
           <input
-          placeholder="Insert Your Name"
+            placeholder="Insert Your Name"
             name="nama"
             type="name"
             class="form-control"
             id="name"
             aria-describedby="namehelp"
           />
-          <label for="exampleInputEmail1" class="form-label mt-2"
+          <label for="email" class="form-label mt-2"
             >Email address</label
           >
           <input
-          placeholder="Insert Your Email..."
+            placeholder="Insert Your Email..."
             name="email"
             type="email"
             class="form-control"
@@ -31,7 +31,7 @@
         <div class="mb-3">
           <label for="messages" class="form-label">Messages</label>
           <textarea
-          placeholder="Enter Message..."
+            placeholder="Enter Message..."
             type="text"
             class="form-control"
             id="messages"
