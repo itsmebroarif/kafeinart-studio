@@ -37,20 +37,7 @@
       </div>
 
 
-      <!-- Baris Sosial media 3 -->
-      <div class="row mt-4 py-5">
-        <div class="col">
-          <a href="http://" class="btn btn-outline-primary">Social Media</a>
-        </div>
-        <div class="col">
-          <a href="http://" class="btn btn-outline-primary">Social Media</a>
-        </div>
-        <div class="col">
-          <a href="http://" class="btn btn-outline-primary">Social Media</a>
-        </div>
-      </div>
-
-
+      
 
 
 
